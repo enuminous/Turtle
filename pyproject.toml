@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "efmw-turtle"
+version = "1.0.0"
+description = "Framework-of-frameworks evidence synthesis layer for EFMW."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Matthew C. Wright"}]
+dependencies = ["numpy>=1.26","PyYAML>=6.0"]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TURTLE Framework Evidence Record",
+  "type": "object",
+  "required": [
+    "framework",
+    "applicable",
+    "direction",
+    "effect",
+    "confidence",
+    "independence_group",
+    "provenance_quality"
+  ],
+  "properties": {
+    "framework": {
+      "type": "string"
+    },
+    "applicable": {
+      "type": "boolean"
+    },
+    "direction": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "effect": {
+      "type": "number"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "replicated": {
+      "type": "boolean"
+    },
+    "independence_group": {
+      "type": "string"
+    },
+    "provenance_quality": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "veto_on_failure": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

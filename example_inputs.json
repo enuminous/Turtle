@@ -1,0 +1,80 @@
+[
+  {
+    "framework": "TORTOISE",
+    "applicable": true,
+    "direction": 1,
+    "effect": 0.014,
+    "confidence": 0.75,
+    "replicated": false,
+    "independence_group": "early-warning",
+    "provenance_quality": 0.82,
+    "veto_on_failure": false
+  },
+  {
+    "framework": "CRAB",
+    "applicable": true,
+    "direction": 1,
+    "effect": 0.01,
+    "confidence": 0.68,
+    "replicated": false,
+    "independence_group": "contradiction",
+    "provenance_quality": 0.8,
+    "veto_on_failure": false
+  },
+  {
+    "framework": "HEDGEHOG",
+    "applicable": true,
+    "direction": 1,
+    "effect": 0.006,
+    "confidence": 0.82,
+    "replicated": false,
+    "independence_group": "generalization",
+    "provenance_quality": 0.9,
+    "veto_on_failure": true
+  },
+  {
+    "framework": "BAT",
+    "applicable": true,
+    "direction": -1,
+    "effect": -0.0001,
+    "confidence": 0.95,
+    "replicated": false,
+    "independence_group": "falsification",
+    "provenance_quality": 0.95,
+    "veto_on_failure": true
+  },
+  {
+    "framework": "DRAGON",
+    "applicable": true,
+    "direction": 1,
+    "effect": 0.02,
+    "confidence": 0.7,
+    "replicated": false,
+    "independence_group": "regimes",
+    "provenance_quality": 0.8,
+    "veto_on_failure": false
+  },
+  {
+    "framework": "PENGUIN",
+    "applicable": true,
+    "direction": -1,
+    "effect": -0.006,
+    "confidence": 0.7,
+    "replicated": false,
+    "independence_group": "noise-ceiling",
+    "provenance_quality": 0.82,
+    "veto_on_failure": false
+  },
+  {
+    "framework": "CROCODILE",
+    "applicable": false,
+    "direction": 0,
+    "effect": 0.0,
+    "confidence": 0.0,
+    "replicated": false,
+    "independence_group": "causality",
+    "provenance_quality": 0.0,
+    "veto_on_failure": true,
+    "notes": "Not applicable to an observational-only claim."
+  }
+]

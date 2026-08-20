@@ -1,0 +1,20 @@
+machine: TURTLE-M1
+version: 1.0.0
+
+normalization:
+  effect_scale: 0.02
+
+verdict:
+  coherent_support_threshold: 0.18
+  conditional_support_threshold: 0.05
+  minimum_independent_groups: 3
+
+principles:
+  independence_adjustment: true
+  provenance_weighting: true
+  replication_weighting: true
+  veto_conditions: true
+  correlated_frameworks_do_not_count_as_independent_replications: true
+
+freeze:
+  hash: sha256
